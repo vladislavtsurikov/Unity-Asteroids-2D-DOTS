@@ -1,0 +1,24 @@
+{
+    "name": "VladislavTsurikov.Utility",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Burst",
+        "Unity.Physics",
+        "Unity.Mathematics",
+        "VladislavTsurikov.CameraProperties",
+        "VladislavTsurikov.Math"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

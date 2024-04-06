@@ -1,0 +1,28 @@
+{
+    "name": "VladislavTsurikov.Weapons",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Physics",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.InputSystem",
+        "VladislavTsurikov.OBB",
+        "VladislavTsurikov.Destroy",
+        "VladislavTsurikov.Utility",
+        "VladislavTsurikov.EntityEffects",
+        "VladislavTsurikov.PhysicsVelocity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

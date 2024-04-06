@@ -1,0 +1,26 @@
+{
+    "name": "VladislavTsurikov.Destroy",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Physics",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "VladislavTsurikov.EntityLayer",
+        "VladislavTsurikov.Utility",
+        "VladislavTsurikov.CameraProperties",
+        "VladislavTsurikov.OBB",
+        "VladislavTsurikov.Math"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

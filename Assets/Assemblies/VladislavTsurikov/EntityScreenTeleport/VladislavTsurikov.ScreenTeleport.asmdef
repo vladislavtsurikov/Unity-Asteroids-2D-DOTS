@@ -1,0 +1,28 @@
+{
+    "name": "VladislavTsurikov.ScreenTeleport",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Burst",
+        "VladislavTsurikov.CameraProperties",
+        "VladislavTsurikov.PhysicsVelocity",
+        "VladislavTsurikov.OBB",
+        "VladislavTsurikov.ApplicationState",
+        "VladislavTsurikov.Utility",
+        "VladislavTsurikov.Math",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

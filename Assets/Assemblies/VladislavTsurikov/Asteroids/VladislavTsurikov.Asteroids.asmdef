@@ -1,0 +1,32 @@
+{
+    "name": "VladislavTsurikov.Asteroids",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.TextMeshPro",
+        "VladislavTsurikov.ApplicationState",
+        "VladislavTsurikov.Destroy",
+        "VladislavTsurikov.PhysicsVelocity",
+        "VladislavTsurikov.CameraProperties",
+        "VladislavTsurikov.Score",
+        "VladislavTsurikov.Weapons",
+        "VladislavTsurikov.Utility",
+        "VladislavTsurikov.MoveTowardsTarget",
+        "VladislavTsurikov.Spawner",
+        "VladislavTsurikov.2DPlayerController"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

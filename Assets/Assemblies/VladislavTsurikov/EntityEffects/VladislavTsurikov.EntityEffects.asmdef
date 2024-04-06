@@ -1,0 +1,25 @@
+{
+    "name": "VladislavTsurikov.EntityEffects",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "VladislavTsurikov.Spawner",
+        "VladislavTsurikov.Destroy",
+        "VladislavTsurikov.PhysicsVelocity",
+        "VladislavTsurikov.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

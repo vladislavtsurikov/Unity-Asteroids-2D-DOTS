@@ -1,0 +1,54 @@
+{
+    "name": "WeaponsAction",
+    "maps": [
+        {
+            "name": "Weapons",
+            "id": "a56efec0-514d-4fb5-93e5-d894102f35b6",
+            "actions": [
+                {
+                    "name": "FireBullet",
+                    "type": "Button",
+                    "id": "b3f701d0-079e-4edb-87ae-7b21e7ae0121",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FireLaser",
+                    "type": "Button",
+                    "id": "a572f26a-1c64-41a6-b01f-11d1ae069a41",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "297a29c7-fdb7-4cc1-960e-5227c8d5a40e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireBullet",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69c22a74-77f7-4ab0-b0c3-f4987da7d57a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireLaser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

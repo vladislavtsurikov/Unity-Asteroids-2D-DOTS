@@ -1,0 +1,28 @@
+{
+    "name": "VladislavTsurikov.Spawner",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "VladislavTsurikov.CameraProperties",
+        "VladislavTsurikov.OBB",
+        "VladislavTsurikov.ApplicationState",
+        "VladislavTsurikov.Destroy",
+        "VladislavTsurikov.Utility",
+        "VladislavTsurikov.Math",
+        "VladislavTsurikov.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
