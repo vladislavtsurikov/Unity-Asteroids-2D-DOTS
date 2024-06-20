@@ -1,9 +1,9 @@
 using Unity.Entities;
 using UnityEngine;
 using VladislavTsurikov.Utility.Runtime;
-using VladislavTsurikov.Weapons.Bullet.Components;
+using VladislavTsurikov.Weapons.Runtime.Bullet.Components;
 
-namespace VladislavTsurikov.Weapons.Bullet.Authorings
+namespace VladislavTsurikov.Weapons.Runtime.Bullet.Authorings
 {
     [ExecuteInEditMode]
     public class BulletWeaponAuthoring : MonoBehaviour

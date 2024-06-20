@@ -2,9 +2,9 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.Damaging.Components;
-using VladislavTsurikov.Weapons.Bullet.Components;
+using VladislavTsurikov.Weapons.Runtime.Bullet.Components;
 
-namespace VladislavTsurikov.Weapons.Bullet.Aspects
+namespace VladislavTsurikov.Weapons.Runtime.Bullet.Aspects
 {
     public readonly partial struct BulletWeaponAspect : IAspect
     {

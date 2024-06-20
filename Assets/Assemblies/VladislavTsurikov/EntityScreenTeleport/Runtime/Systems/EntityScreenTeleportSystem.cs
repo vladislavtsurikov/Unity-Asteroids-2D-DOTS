@@ -5,6 +5,7 @@ using Unity.Transforms;
 using VladislavTsurikov.ApplicationStates.Runtime.States.GameOver.Components;
 using VladislavTsurikov.EntityCameraProperties.Runtime;
 using VladislavTsurikov.EntityCameraProperties.Runtime.Components;
+using VladislavTsurikov.EntityCameraProperties.Runtime.Enums;
 using VladislavTsurikov.EntityOBB.Runtime.Components;
 using VladislavTsurikov.EntityScreenTeleport.Runtime.Components;
 using VladislavTsurikov.Math.Runtime;

@@ -1,9 +1,9 @@
 using Unity.Burst;
 using Unity.Entities;
-using VladislavTsurikov.Weapons.Laser.Components;
-using LaserWeaponAspect = VladislavTsurikov.Weapons.Laser.Aspects.LaserWeaponAspect;
+using VladislavTsurikov.Weapons.Runtime.Laser.Components;
+using LaserWeaponAspect = VladislavTsurikov.Weapons.Runtime.Laser.Aspects.LaserWeaponAspect;
 
-namespace VladislavTsurikov.Weapons.Laser.Systems
+namespace VladislavTsurikov.Weapons.Runtime.Laser.Systems
 {
     [UpdateInGroup(typeof(PresentationSystemGroup))]
     public partial class LaserShootingSystem : SystemBase

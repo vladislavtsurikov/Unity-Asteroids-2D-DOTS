@@ -2,9 +2,9 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.Damaging.Components;
-using VladislavTsurikov.Weapons.Laser.Components;
+using VladislavTsurikov.Weapons.Runtime.Laser.Components;
 
-namespace VladislavTsurikov.Weapons.Laser.Aspects
+namespace VladislavTsurikov.Weapons.Runtime.Laser.Aspects
 {
     public readonly partial struct LaserWeaponAspect : IAspect
     {

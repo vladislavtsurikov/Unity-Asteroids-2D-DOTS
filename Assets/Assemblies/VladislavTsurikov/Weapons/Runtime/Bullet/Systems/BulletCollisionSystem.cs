@@ -3,14 +3,17 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Physics;
 using Unity.Physics.Systems;
+using UnityEngine;
 using VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.Damaging.Components;
-using VladislavTsurikov.EntityEffects.Effects.Fragmentation.Components;
-using VladislavTsurikov.Weapons.Bullet.Components;
+using VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.Damaging.Systems;
+using VladislavTsurikov.EntityEffects.Effects.Split.Components;
+using VladislavTsurikov.Weapons.Runtime.Bullet.Components;
 
-namespace VladislavTsurikov.Weapons.Bullet.Systems
+namespace VladislavTsurikov.Weapons.Runtime.Bullet.Systems
 {
     [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateAfter(typeof(PhysicsSystemGroup))]
+    [UpdateAfter(typeof(DamageCollisionSystem))]
     public partial struct BulletCollisionSystem : ISystem
     {
         private ComponentLookup<BulletTag> _damagingLookup;
@@ -66,7 +69,7 @@ namespace VladislavTsurikov.Weapons.Bullet.Systems
 
                 if (HealthLookup[damageTakerEntity].Value == 0)
                 {
-                    CommandBuffer.AddComponent<FragmentationDamage>(damageTakerEntity);
+                    CommandBuffer.AddComponent<SplitDamage>(damageTakerEntity);
                 }
             }
 

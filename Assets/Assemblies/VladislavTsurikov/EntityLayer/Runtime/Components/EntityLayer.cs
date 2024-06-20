@@ -1,6 +1,6 @@
 using Unity.Entities;
 using UnityEngine;
-using VladislavTsurikov.DOTSEntityLayer.Runtime;
+using VladislavTsurikov.EntityLayer.Runtime.Utility;
 
 namespace VladislavTsurikov.EntityLayer.Runtime.Components
 {

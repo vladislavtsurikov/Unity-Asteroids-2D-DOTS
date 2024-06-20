@@ -1,5 +1,6 @@
 using Unity.Mathematics;
 using VladislavTsurikov.EntityCameraProperties.Runtime.Components;
+using VladislavTsurikov.EntityCameraProperties.Runtime.Enums;
 
 namespace VladislavTsurikov.EntityCameraProperties.Runtime.Utility
 {

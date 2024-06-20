@@ -22,7 +22,7 @@ namespace VladislavTsurikov.EntitySpawning.Runtime.Spawners.IntervalSpawner.Aspe
     {
         private readonly RefRW<IntervalSpawnerComponent> _spawnerComponent;
         private readonly RefRW<SpawnerRandom> _spawnerRandom;
-        private readonly RefRW<SpawnerHashCodeComponent> _hashCodeComponent;
+        private readonly RefRW<SpawnerHashCode> _hashCodeComponent;
         private readonly DynamicBuffer<PrototypeComponent> _prototypes;
         
         public void SpawnIfNecessary(EntityCommandBuffer commandBuffer, CameraPropertiesComponent cameraPropertiesComponent, float deltaTime)

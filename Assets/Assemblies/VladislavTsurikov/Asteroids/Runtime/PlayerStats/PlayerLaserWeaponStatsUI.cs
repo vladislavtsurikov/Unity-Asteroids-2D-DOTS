@@ -2,7 +2,7 @@ using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
 using VladislavTsurikov.Asteroids.Runtime.PlayerStats.UIStats;
-using VladislavTsurikov.Weapons.Laser.Components;
+using VladislavTsurikov.Weapons.Runtime.Laser.Components;
 
 namespace VladislavTsurikov.Asteroids.Runtime.PlayerStats
 {

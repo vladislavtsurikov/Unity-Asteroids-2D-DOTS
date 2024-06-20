@@ -1,7 +1,7 @@
 using Unity.Entities;
 using UnityEngine;
-using VladislavTsurikov.DOTSEntityLayer.Runtime;
 using VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.DestroyOnCollision.Components;
+using VladislavTsurikov.EntityLayer.Runtime.Utility;
 using VladislavTsurikov.Utility.Runtime;
 
 namespace VladislavTsurikov.EntityDestroyer.Runtime.Destroyers.DestroyOnCollision.Authorings

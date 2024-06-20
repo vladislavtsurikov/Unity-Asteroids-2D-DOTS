@@ -30,7 +30,7 @@ namespace VladislavTsurikov.Asteroids.Runtime.Systems
             RefRW<CameraPropertiesComponent> cameraProperties = SystemAPI.GetSingletonRW<CameraPropertiesComponent>();
 
             foreach (var (randomVelocityDirectionOnSpawn, spawnerRandom, spawnerHashCodeComponent, _) 
-                     in SystemAPI.Query<RefRO<RandomVelocityDirectionOnSpawnComponent>, RefRW<SpawnerRandom>, RefRO<SpawnerHashCodeComponent>>().WithEntityAccess())
+                     in SystemAPI.Query<RefRO<RandomVelocityDirectionOnSpawnComponent>, RefRW<SpawnerRandom>, RefRO<SpawnerHashCode>>().WithEntityAccess())
             {
                 foreach (var (spawnable, localTransform, entity) in SystemAPI
                              .Query<RefRO<Spawnable>, RefRO<LocalTransform>>().WithEntityAccess())

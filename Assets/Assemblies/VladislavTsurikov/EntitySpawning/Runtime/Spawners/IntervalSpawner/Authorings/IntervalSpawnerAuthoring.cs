@@ -48,7 +48,7 @@ namespace VladislavTsurikov.EntitySpawning.Runtime.Spawners.IntervalSpawner.Auth
                     SpawnAtStart = authoring.SpawnAtStart
                 });
                 
-                AddComponent(entity, new SpawnerHashCodeComponent() { Value = authoring.GetHashCode() });
+                AddComponent(entity, new SpawnerHashCode() { Value = authoring.GetHashCode() });
                 AddComponent(entity, new SpawnerRandom { Value = Random.CreateFromIndex(authoring.RandomSeed) });
                 
                 DynamicBuffer<PrototypeComponent> prototypeComponents = AddBuffer<PrototypeComponent>(entity);

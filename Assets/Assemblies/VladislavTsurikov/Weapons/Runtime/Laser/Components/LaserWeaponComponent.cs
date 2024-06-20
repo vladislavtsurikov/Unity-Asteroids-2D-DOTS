@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace VladislavTsurikov.Weapons.Laser.Components
+namespace VladislavTsurikov.Weapons.Runtime.Laser.Components
 {
     public struct LaserWeaponComponent : IComponentData
     {

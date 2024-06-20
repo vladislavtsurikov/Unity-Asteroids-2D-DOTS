@@ -1,8 +1,8 @@
 using Unity.Entities;
 using UnityEngine;
-using VladislavTsurikov.Weapons.Laser.Components;
+using VladislavTsurikov.Weapons.Runtime.Laser.Components;
 
-namespace VladislavTsurikov.Weapons.Laser.Authorings
+namespace VladislavTsurikov.Weapons.Runtime.Laser.Authorings
 {
     public class LaserWeaponAuthoring : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace VladislavTsurikov.Weapons.Bullet.Components
+namespace VladislavTsurikov.Weapons.Runtime.Bullet.Components
 {
     public struct BulletWeaponComponent : IComponentData
     {

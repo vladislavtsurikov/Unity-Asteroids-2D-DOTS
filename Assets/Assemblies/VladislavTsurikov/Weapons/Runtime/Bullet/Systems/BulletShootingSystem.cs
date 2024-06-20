@@ -1,9 +1,9 @@
 using Unity.Burst;
 using Unity.Entities;
-using VladislavTsurikov.Weapons.Bullet.Components;
-using BulletWeaponAspect = VladislavTsurikov.Weapons.Bullet.Aspects.BulletWeaponAspect;
+using VladislavTsurikov.Weapons.Runtime.Bullet.Components;
+using BulletWeaponAspect = VladislavTsurikov.Weapons.Runtime.Bullet.Aspects.BulletWeaponAspect;
 
-namespace VladislavTsurikov.Weapons.Bullet.Systems
+namespace VladislavTsurikov.Weapons.Runtime.Bullet.Systems
 {
     [UpdateInGroup(typeof(PresentationSystemGroup))]
     public partial class BulletShootingSystem : SystemBase
@@ -40,6 +40,8 @@ namespace VladislavTsurikov.Weapons.Bullet.Systems
 
         protected override void OnUpdate()
         {
+            CompleteDependency();
+            
             new UpdateWeaponJob
             {
                 DeltaTime = SystemAPI.Time.DeltaTime,

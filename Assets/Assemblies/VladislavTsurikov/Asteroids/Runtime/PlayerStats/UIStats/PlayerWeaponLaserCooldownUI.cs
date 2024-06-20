@@ -1,4 +1,4 @@
-using VladislavTsurikov.Weapons.Laser.Components;
+using VladislavTsurikov.Weapons.Runtime.Laser.Components;
 
 namespace VladislavTsurikov.Asteroids.Runtime.PlayerStats.UIStats
 {
